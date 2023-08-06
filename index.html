@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Minds In Care</title>
+<body>
+<header>
+    <a href="#" class="logo">Minds In Care</a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+        <li><a href="#Nos services" onclick="toggleMenu();">Nos services</a></li>
+        <li><a href="#Devenir-Partenaire" onclick="toggleMenu();">Devenir Partenaire</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <div class="container">
+            <button onclick="openModal()">Devenir-Partenaire</button>
+        
+            <!-- Modal (formulaire) -->
+            <div class="modal" id="modalForm">
+              <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2>Devenir-Partenaire</h2>
+                <form>
+                  <!-- Vos champs de formulaire ici -->
+                  <form action="#" method="post">
+                    <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="Phone">Phone :</label>
+                <input type="Phone" id="Phone" name="Phone" required>
+        
+                <label for="Type de service">Type de  service :</label>
+                <input type="Type de  service" id="Type de  service" name="Type de  service" required>
+        
+                <label for="Localisation">Localisation :</label>
+                <input type="Localisation" id="Localisation" name="Localisation" required>
+        
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <input type="submit" value="Envoyer">
+                </form> 
+                </form>
+              </div>
+            </div>
+          </div>
+        
+          <script>
+            function openModal() {
+              document.getElementById("modalForm").style.display = "block";
+            }
+        
+            function closeModal() {
+              document.getElementById("modalForm").style.display = "none";
+            }
+          </script>
+        </body>
+    </ul>
+</header>
+
+  <script>
+    function openModal() {
+      document.getElementById("modalForm").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("modalForm").style.display = "none";
+    }
+  </script>
+</body> 
+
+<section class="banniere" id="banniere">
+    <div class="contenu">
+        <h2>Bienvenue au Centre de Santé Mentale  Minds In Care</h2>
+        <p>Bienvenue sur notre site dédié au soutien de votre santé mentale. Chez Minds In Care, nous sommes déterminés à vous offrir un espace sûr et bienveillant pour explorer vos émotions, surmonter vos défis et cultiver un équilibre intérieur.</p>
+    </div>
+</section>
+<section class="apropos" id="apropos">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+            </p>Qui sommes-nous ?
+        </p> Minds In Care est un site et  centre de santé mentale dédié à offrir des services de soutien et de thérapie pour les individus, les couples et les familles. 
+        </p>notre projet vont porter des idées innovantes et carrément loin des idées usuelles suivies dans le chemin du traitement médical, mentionnant « La médication à travers les psychotropes ».
+        </p> Minds In Care compte sur les simples/efficaces méthodes pour absorber l’effet laissé sur l’état psychique du patient, notre équipe de professionnels qualifiés s'est engagée également à accompagner nos patients dans leur cheminement vers un bien-être émotionnel durable.
+            </p>
+        </div>
+        <div class="col50">
+            <div class="img">
+                <img src="photo/LOGO de Minds In Care.png" alt="image">
+        </div>
+    </div>
+</section>
+</header><!-- End Header -->
+<!-- End Header -->
+<video src="../Minds In Care/MP4_20230528_141435VLOG.mp4" autoPlay loop muted></video>
+</div>
+</div>
+
+</section>
+<section class="Nos services" id="Nos services">
+    <div class="titre">
+        <h2 class="titre-texte"><span>S</span>ervices</h2>
+    </p>  Services de thérapie et de soutien:
+    </p>Au Centre  Minds In Care, nous proposons une gamme complète de services pour répondre à vos besoins en matière de santé mentale. Nos professionnels expérimentés utilisent des approches thérapeutiques éprouvées pour vous aider à surmonter les défis suivants :
+    </p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="photo/salle de yoga.png">
+            </div>
+            <div class="text">
+                <h3>Terrain spéciale de yoga.</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="photo/cuisine thérapeutique.png">
+            </div>
+            <div class="text">
+                <h3>Les cuisines thérapeutiques est pour but de la socialisation, ou encore accompagner un traitement contre les addictions ou les maladies neurodégénératives.</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="photo/modélage d'argile.png">
+            </div>
+            <div class="text">
+                <h3>S’exprimer avec l’argile : des ateliers spécialisés dans le modélage.</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="photo/Salles TV spécialisées   pour l’exposition des vidéos et musique relaxantes..png">
+            </div>
+            <div class="text">
+                <h3>Salles télévisées spécialisées uniquement pour l’exposition des vidéos et musique relaxantes.</h3>
+            </div>
+        </div> 
+        <div class="box">
+            <div class="imbox">
+                <img src="photo/Psychologue.jpg">
+            </div>
+            <div class="text">
+                <h3>Planifier des séances en ligne avec un psychologue.</h3>
+            </div>
+        </div> 
+        <div class="box">
+            <div class="imbox">
+                <img src="photo/partenariat avec des autres entreprises.jpg">
+            </div>
+            <div class="text">
+                <h3>Partenariat avec les autres entreprises dans notre domaine d'activité.</h3>
+            </div>
+        </div>   
+ </div>
+ <div class="titre">
+    <a href="#" class="btn1">Voir Plus</a>
+ </div>
+
+
+ 
+ 
+</section>
+<section class="Devenir-Partenaire" id="Devenir-Partenaire">
+    <div class="titre noir">
+        <h2 class="titre-texte"><span>Devenir</span> Partenaire</h2>
+    
+</p>Nous croyons en l'importance de la collaboration pour améliorer la santé mentale de nos patients. Si vous êtes une organisation, une entreprise ou un professionnel intéressé à collaborer avec notre centre de santé mentale, veuillez remplir le formulaire ci-dessous. Nous cherchons à établir des partenariats fructueux dans le but de fournir des soins de qualité et de sensibiliser davantage à la santé mentale." </p>
+    </div>
+    <div class="Devenir-Partenaireform">
+        <form action="#" method="post">
+            <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="Phone">Phone :</label>
+        <input type="Phone" id="Phone" name="Phone" required>
+
+        <label for="Type de service">Type de  service :</label>
+        <input type="Type de  service" id="Type de  service" name="Type de  service" required>
+
+        <label for="Localisation">Localisation :</label>
+        <input type="Localisation" id="Localisation" name="Localisation" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <input type="submit" value="Envoyer">
+        </form> 
+
+<section class="contact" id="contact">
+    <div class="titre noir">
+        <h2 class="titre-text"><span>C</span>ontact</h2>
+    </div>
+    <div class="contactform">
+        <form action="#" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+    </body>
+    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <h4>Contact Us</h4>
+        <p>
+          Annaba 23000 <br/>
+          Algerie,Annaba<br/>
+          Annaba ville  <br/><br/>
+          <strong>Téléhone:</strong> +213<br/>
+          <strong>Email:</strong><a href='#'> MindsInCare@gmail.com<br/></a> 
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+
+    
+ 
+ 
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const tmenuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+ </script>
+</body>
+</html>
